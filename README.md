@@ -1,4 +1,11 @@
 
+## コードをローカルにコピー
+
+```shell
+cd YOUR_WORKSPACE
+git clone https://github.com/luisfun/civitai-prompt-crawler.git
+```
+
 ## URLの取得
 
 ```shell
