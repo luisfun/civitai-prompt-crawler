@@ -4,7 +4,7 @@
   "scripts": {
     "fix": "biome check --write .",
     "fix:unsafe": "biome check --write --unsafe .",
-    "crawl": "tsc && node dist/index.js"
+    "get-urls": "tsc && node dist/get-urls.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.3",
