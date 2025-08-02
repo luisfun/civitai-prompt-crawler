@@ -29,6 +29,11 @@ const promptCleaner = (prompt: string) =>
   // 重複削除
   const prompts = Array.from(new Set(merged.prompts)).sort()
   const negativePrompts = Array.from(new Set(merged.negativePrompts)).sort()
+  const allPrompts = Array.from(new Set([...prompts, ...negativePrompts])).sort()
   // 結果をファイルに書き込み
-  await fs.writeFile('dump/merged-prompts.json', JSON.stringify({ prompts, negativePrompts }, null, 2), 'utf-8')
+  await fs.writeFile(
+    'dump/merged-prompts.json',
+    JSON.stringify({ prompts, negativePrompts, allPrompts }, null, 2),
+    'utf-8',
+  )
 })()
