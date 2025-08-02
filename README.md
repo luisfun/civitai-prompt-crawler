@@ -5,6 +5,9 @@
 npm run get-urls
 ```
 
+[get-urls](https://github.com/luisfun/civitai-prompt-crawler/blob/main/src/get-urls.ts) の `SCROLL_COUNT` を増やすと取得URLが増える
+
+
 ## プロンプトの取得
 
 ```shell
