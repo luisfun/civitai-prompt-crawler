@@ -1,9 +1,12 @@
 
-## コードをローカルにコピー
+## コードをローカルにコピー、インストール
 
 ```shell
 cd YOUR_WORKSPACE
 git clone https://github.com/luisfun/civitai-prompt-crawler.git
+cd civitai-prompt-crawler
+npm i
+npx playwright install
 ```
 
 ## URLの取得

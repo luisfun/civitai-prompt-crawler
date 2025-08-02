@@ -6,7 +6,8 @@
     "fix": "biome check --write .",
     "fix:unsafe": "biome check --write --unsafe .",
     "get-urls": "tsc && node dist/get-urls.js",
-    "get-prompts": "tsc && node dist/get-prompts.js"
+    "get-prompts": "tsc && node dist/get-prompts.js",
+    "merge-prompts": "tsc && node dist/merge-prompts.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.3",
