@@ -1,6 +1,5 @@
+import { promises as fs } from 'node:fs'
 import { chromium, type Page } from 'playwright'
-import { promises as fs } from 'fs'
-import { join } from 'path'
 
 const SCROLL_COUNT = 0
 
@@ -33,8 +32,6 @@ const getHref = (page: Page) =>
   const uniqueHrefs = Array.from(new Set(hrefs))
   console.log(uniqueHrefs)
   // dump/urls.json に保存
-  const dumpDir = join(__dirname, '..', 'dump')
-  await fs.mkdir(dumpDir, { recursive: true })
-  await fs.writeFile(join(dumpDir, 'urls.json'), JSON.stringify(uniqueHrefs, null, 2), 'utf-8')
+  await fs.writeFile('dump/urls.json', JSON.stringify(uniqueHrefs, null, 2), 'utf-8')
   await browser.close()
 })()
