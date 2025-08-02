@@ -12,6 +12,7 @@ const getHref = (page: Page) =>
   const page = await browser.newPage()
   // 画像リクエストをブロック
   await page.route('**/*.{png,jpg,jpeg,gif,webp,avif,svg}', route => route.abort())
+
   // メインページへ移動
   await page.goto('https://civitai.com/images')
   await page.waitForSelector('a.mantine-Anchor-root')
@@ -30,8 +31,8 @@ const getHref = (page: Page) =>
   }
   // 重複を削除
   const uniqueHrefs = Array.from(new Set(hrefs))
-  console.log(uniqueHrefs)
-  // dump/urls.json に保存
+
+  // urls.jsonに保存
   await fs.writeFile('dump/urls.json', JSON.stringify(uniqueHrefs, null, 2), 'utf-8')
   await browser.close()
 })()

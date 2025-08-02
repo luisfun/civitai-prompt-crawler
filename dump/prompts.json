@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://civitai.com/images/90569376",
+    "prompt": "anime screencap, masterpiece, best quality,\n1girl, solo, open mouth, light smile, blush, upper teeth only, \nshort twintails, pink hair, green eyes, hair ribbon, red ribbon,\nwhite collar, chain necklace, open jacket, off-shoulder jacket, frilled jacket, white shirt, puffy short sleeves, underbust, midriff, navel,\nbrown gloves, short shorts, white thighhighs, brown shorts, brown thigh pouch,\naqua bag,\nholding sword, \nstanding, looking at viewer, cowboy shot,\nforest, log, scenery, nature, photo background, blurry background\n<lora:YuushaPartyWoTsuihouSaretaShiromadoushi_Yui_IlluXL:0.9>...Show more",
+    "negativePrompt": "lowres, bad quality, sketch, worst quality, low quality, bad anatomy, bad hands, 4koma, comic, greyscale, censored, jpeg artifacts, 3d"
+  },
+  {
+    "url": "https://civitai.com/images/90643292",
+    "prompt": "masterpiece, best quality, amazing quality, aesthetic,   absurdres, best quality, 4k, upscale, simple background, white background, seed_(zenless_zone_zero), 1girl, salute, small breasts, elbow gloves, looking at viewer, grey dress, bare shoulders, hair ornament, blue hair, braid, closed mouth, holding, green eyes, long hair, smile, standing, hairclip, cowboy shot, ahoge, swept bangs, detached sleeves, thigh strap, white dress, cleavage, see-through, sleeveless dress, white gloves, grey sleeves, orange gloves    <lora:seed_zenless_zone_zero_IL:1>...Show more",
+    "negativePrompt": "pubic hair, 3d, cropped, loli, censored, (simple background:1.0), bar censoring, mosaic censoring,  siblings, bad legs, clones, monochrome, clones, sketch, rought lines, patreon username, logo, bad proportions, artist signature, artist name, english text, text, korean text, speech bubble, sound effects, multiple views, 4koma,comics, comic,...Show more"
+  },
+  {
+    "url": "https://civitai.com/images/90569378",
+    "prompt": "",
+    "negativePrompt": ""
+  },
+  {
+    "url": "https://civitai.com/images/90766880",
+    "prompt": "<lora:YM_yoshizawa_yumimiXLIllustrious001>,\nmasterpiece,best quality,good quality,newest,\nflower background,glitter,\nclosed eyes,smile,open mouth,\nlooking at viewer,\nsolo,\nanime coloring,retro artstyle,parody,\nyoshizawa_yumimi\\(yumimi_mix\\),1girl,brown hair,single braid,sidelocks,\nwhite shirt,red bow tie,green dress,strap dress,long_sleeves,\ngreen skirt,\ncowboy shot,\nstanding,...Show more",
+    "negativePrompt": "lowres,worst quality,bad quality,bad anatomy,sketch,jpeg artifacts,signature,watermark,"
+  },
+  {
+    "url": "https://civitai.com/images/90766882",
+    "prompt": "masterpiece, best quality, amazing quality, , 1girl, solo, umamusume, racetrack, running,   <lora:Air Groove in game style 3D ILL-v2.1:1> ummsmingame, 3d, air groove \\(umamusume\\), two-tone shirt, crying in happines, happy, marriage proposal, wedding ring, pov hands, showing wedding ring, looking at viewer...Show more",
+    "negativePrompt": "low quality, bad quality, worst quality, worst detail, bad anatomy, extra arms , multiple heads, extra legs, extra digits, multiple views, comic,  text, speech bubble, censored, bar censor, artist name, signature, watermark, web address, sketch, jpeg artifacts, ugly, poorly drawn, blurry, simple background, transparent background, outside border...Show more"
+  },
+  {
+    "url": "https://civitai.com/images/90569377",
+    "prompt": "",
+    "negativePrompt": ""
+  },
+  {
+    "url": "https://civitai.com/images/90643293",
+    "prompt": "masterpiece, best quality, amazing quality, aesthetic,   absurdres, best quality, 4k, upscale, simple background, white background, seed_(zenless_zone_zero), 1girl, small breasts, elbow gloves, looking at viewer, grey dress, bare shoulders, hair ornament, blue hair, braid, closed mouth, holding, green eyes, long hair, smile, standing, hairclip, cowboy shot, ahoge, swept bangs, detached sleeves, thigh strap, white dress, cleavage, see-through, sleeveless dress, white gloves, grey sleeves, orange gloves    <lora:seed_zenless_zone_zero_IL:1>...Show more",
+    "negativePrompt": "pubic hair, 3d, cropped, loli, censored, (simple background:1.0), bar censoring, mosaic censoring,  siblings, bad legs, clones, monochrome, clones, sketch, rought lines, patreon username, logo, bad proportions, artist signature, artist name, english text, text, korean text, speech bubble, sound effects, multiple views, 4koma,comics, comic,...Show more"
+  }
+]
