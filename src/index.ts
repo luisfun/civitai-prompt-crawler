@@ -1,12 +1,21 @@
-import { chromium } from "playwright"
-import * as fs from "fs"
+import { chromium } from 'playwright'
 
-(async () => {
+;(async () => {
+  // ブラウザの準備
   const browser = await chromium.launch()
   const page = await browser.newPage()
-  await page.goto("https://civitai.com/images")
-  const screenshot = await page.screenshot({ path: "example.png" })
-  // save dist
-  fs.writeFileSync("dist/example.png", screenshot)
+  // メインページへ移動
+  await page.goto('https://civitai.com/images')
+  await page.waitForSelector('a.mantine-Anchor-root')
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => {
+      window.scrollTo(0, document.body.scrollHeight)
+    })
+    await page.waitForTimeout(500)
+  }
+  const hrefs = await page.$$eval('a.mantine-Anchor-root', elements =>
+    elements.map(el => (el as HTMLAnchorElement).href),
+  )
+  console.log(hrefs)
   await browser.close()
 })()
